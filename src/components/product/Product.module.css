@@ -1,0 +1,42 @@
+.prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid rgb(207, 202, 202);
+    border-radius: 3px;
+    background: white;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+}
+.prod__image {
+    width: 200px;
+}
+.prod__price {
+    font-weight: bold;
+}
+.prod__btn {
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    padding: 15px 30px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 3px;
+}
+.prod__btn_blue {
+    background: rgb(71, 71, 202);
+    color: white;
+}
+.prod__btn_yellow {
+    background: rgb(226, 226, 61);
+}
+.prod__btn:active {
+    color: rgb(202, 202, 32);
+    background: white;
+}
+.prod__rate {
+    font-weight: bold;
+}
+.prod__desc {
+    padding: 0px 20px;
+}

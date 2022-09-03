@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Navigation } from "./components/Navigation";
+import { Navigation } from "./components/navigation/Navigation";
 import { DescriptionPage } from "./pages/DescriptionPage";
 import { ProductPage } from "./pages/ProductPage";
 

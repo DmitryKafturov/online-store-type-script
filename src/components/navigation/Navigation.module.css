@@ -1,0 +1,27 @@
+.nav_route {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
+    width: 150px;
+}
+.nav_link_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+.nav__header {
+    font-size: 30px;
+}
+.nav_link {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+    color: tomato;
+    text-decoration: none;
+}
+.nav_link:hover {
+    color: black;
+}
